@@ -20,23 +20,23 @@
       function initKeyShotVR() {
         var nameOfDiv = "KeyShotVR";
         var folderName = "Robot CAD Hudson Valley States Ipad.29";
-        var viewPortWidth = 1024;
-        var viewPortHeight = 633;
+        var viewPortWidth = 1280;
+        var viewPortHeight = 880;
         var backgroundColor = "#FFFFFF";
-        var uCount = 20;
-        var vCount = 10;
+        var uCount = 36;
+        var vCount = 13;
         var uWrap = true;
         var vWrap = false;
         var uMouseSensitivity = -0.0555556;
         var vMouseSensitivity = 0.125;
-        var uStartIndex = 10;
+        var uStartIndex = 18;
         var vStartIndex = 1;
         var minZoom = 1;
-        var maxZoom = 1;
+        var maxZoom = 10;
         var rotationDamping = 0.96;
         var downScaleToBrowser = true;
         var addDownScaleGUIButton = false;
-        var downloadOnInteraction = false;
+        var downloadOnInteraction = true;
         var imageExtension = "jpg";
         var showLoading = true;
         var loadingIcon = "ks_logo.png"; // Set to empty string for default icon.
@@ -44,7 +44,7 @@
         var uReverse = false;
         var vReverse = false;
         var hotspots = {};
-        
+
         keyshotVR = new keyshotVR(nameOfDiv,folderName,viewPortWidth,viewPortHeight,backgroundColor,uCount,vCount,uWrap,vWrap,uMouseSensitivity,vMouseSensitivity,uStartIndex,vStartIndex,minZoom,maxZoom,rotationDamping,downScaleToBrowser,addDownScaleGUIButton,downloadOnInteraction,imageExtension,showLoading,loadingIcon,allowFullscreen,uReverse,vReverse,hotspots);
       }
 
